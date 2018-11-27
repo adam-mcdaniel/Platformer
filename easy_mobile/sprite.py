@@ -330,7 +330,7 @@ class ScreenWidget(Widget):
         TheScreen = self
 
         self.touch = None
-        self.touch_up = None
+        self.touch_up = True
 
     def getKey(self):
         return self.key
